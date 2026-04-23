@@ -141,10 +141,10 @@ export default function ContactPage() {
                     </h3>
                     <p className="text-gray-600 mb-1">School Head:</p>
                     <a
-                      href="tel:0302-5019924"
+                      href="tel:0307-5177762"
                       className="text-[#428180] hover:underline text-lg font-medium"
                     >
-                      0302-5019924
+                      0307-5177762
                     </a>
                     <p className="text-gray-600 mt-2 mb-1">Admin Office:</p>
                     <a
