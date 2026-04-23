@@ -47,7 +47,7 @@ export default function Layout({ children }) {
             <Mail className="w-5 h-5 text-white" />
           </div>
         </a>
-        <a href="tel:0302-5019924">
+        <a href="tel:0307-5177762">
           <div className="bg-[#428180] p-3 rounded-full shadow-lg cursor-pointer hover:bg-[#264A4A] transition-colors">
             <Phone className="w-5 h-5 text-white" />
           </div>
