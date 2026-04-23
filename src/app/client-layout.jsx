@@ -37,7 +37,7 @@ export default function ClientLayout({ children }) {
           </div>
         </a>
         <a
-          href="mailto:info@khudi.institute"
+          href="mailto:khudiinstitute@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
