@@ -115,17 +115,17 @@ export default function ContactPage() {
                     </h3>
                     <p className="text-gray-600 mb-1">General Inquiries:</p>
                     <a
-                      href="mailto:info@khudi.institute"
+                      href="mailto:khudiinstitute@gmail.com"
                       className="text-[#428180] hover:underline"
                     >
-                      info@khudi.institute
+                      khudiinstitute@gmail.com
                     </a>
                     <p className="text-gray-600 mt-2 mb-1">Admissions:</p>
                     <a
-                      href="mailto:info@khudi.institute"
+                      href="mailto:khudiinstitute@gmail.com"
                       className="text-[#428180] hover:underline"
                     >
-                      info@khudi.institute
+                      khudiinstitute@gmail.com
                     </a>
                   </div>
                 </div>

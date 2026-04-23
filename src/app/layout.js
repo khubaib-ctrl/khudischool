@@ -1,5 +1,16 @@
-
+import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import ClientLayout from "./client-layout";
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
 
 export const metadata = {
   title: {
@@ -45,6 +56,9 @@ export const metadata = {
       "max-snippet": -1,
     },
   },
+  verification: {
+    google: "JQwXu4pb99bw8G9oDeCo4OdkM6thKaQr8FVkFRMBhpc",
+  },
   icons: {
     icon: [
       { url: "/khudi-favicon.ico", sizes: "any" },
@@ -60,10 +74,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`antialiased`}
-      >
-        {children}
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <ClientLayout>{children}</ClientLayout>
       </body>
     </html>
   );

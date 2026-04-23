@@ -41,6 +41,7 @@ export default function Home() {
   const currentEvent = events[currentEventIndex];
 
   return (
+    
     <div className="bg-[#FEFDF9] text-[#428180] ">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#FEFDF9] via-[#F8F9FA] to-[#E9ECEF] py-12 sm:py-20">
